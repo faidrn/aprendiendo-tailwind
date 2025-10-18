@@ -1,0 +1,24 @@
+{
+  "name": "aprendiendo-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/faidrn/aprendiendo-tailwind#readme",
+  "bugs": {
+    "url": "https://github.com/faidrn/aprendiendo-tailwind/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faidrn/aprendiendo-tailwind.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:styles": "npx @tailwindcss/cli -i ./input.css -o ./assets/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  }
+}
