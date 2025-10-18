@@ -7,8 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="max-w-xl mx-auto border
-    border-black min-h-dvh 
+<body class="max-w-xl mx-auto min-h-dvh 
     bg-gradient-to-b from-black
     via-sky-950 to-gray-800"
 >
@@ -16,13 +15,39 @@
         <img alt="Guy smiling" src="https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg" 
             class="h-96 object-cover 
             mask-radial-at-center 
-            mask-radial-from-45% 
+            mask-radial-from-60% 
             mask-radial-to-80% 
             "
         >
 
+        <header class="flex flex-col
+            justify-center items-center
+            mb-8 -mt-4"
+        >
+            <span class="
+                text-sky-400 text-xl font-mono 
+                px-3 py-1 border border-sky-500/50 
+                rounded-full 
+                flex items-center justify-center
+                shadow-sm bg-black/65 
+                cursor-crosshair
+                z-10
+            ">
+                @FAID 
+                <svg class="ml-1 w-5 h-5 text-sky-400 inline" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+            </span>
+
+            <h1 class="text-3xl font-extrabold 
+                leading-tight mt-1"
+            >
+                Fredy Izquierdo
+            </h1>
+        </header>
+
         <section class="flex gap-2 justify-center">
-            <a class="bg-purple-100 p-2 size-12 flex items-center justify-center 
+            <a class="bg-purple-100 p-2 size-12 sm:size-16 flex items-center justify-center 
             rounded-full hover:scale-110 transition-transform"
             href="https://twitch.tv/midudev" target="_blank" aria-label="Twitch" title="Ir a Twitch de @midudev">
                 <svg width="28" height="28">
@@ -31,7 +56,7 @@
             </a>
 
             <!-- GitHub -->
-            <a class="bg-zinc-900 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            <a class="bg-zinc-900 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
             href="https://github.com/midudev" target="_blank" rel="noopener noreferrer"
             aria-label="GitHub" title="Ir a GitHub de @midudev"
             style="background-color: #181717;">
@@ -41,7 +66,7 @@
             </a>
 
             <!-- Instagram (gradiente) -->
-            <a class="size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform 
+            <a class="size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform 
             bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600"
             href="https://instagram.com/midudev" target="_blank" rel="noopener noreferrer"
             aria-label="Instagram" title="Ir a Instagram de @midudev"
@@ -52,7 +77,7 @@
             </a>
 
             <!-- YouTube -->
-            <a class="bg-white size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            <a class="bg-white size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
             href="https://www.youtube.com/c/midudev" target="_blank" rel="noopener noreferrer"
             aria-label="YouTube" title="Ir a YouTube de @midudev"
             >
@@ -62,7 +87,7 @@
             </a>
 
             <!-- X (Twitter) -->
-            <a class="bg-black size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            <a class="bg-black size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
             href="https://x.com/midudev" target="_blank" rel="noopener noreferrer"
             aria-label="X" title="Ir a X de @midudev"
             >
@@ -72,7 +97,7 @@
             </a>
 
             <!-- LinkedIn -->
-            <a class="bg-white size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            <a class="bg-white size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
             href="https://www.linkedin.com/in/midudev" target="_blank" rel="noopener noreferrer"
             aria-label="LinkedIn" title="Ir a LinkedIn de @midudev"
             >
