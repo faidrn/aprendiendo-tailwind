@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100 700;
+    src: url('/assets/fonts/inter-font.woff2') format('woff2');
+    font-display: swap;
+}
+
 /* Creacion de variables */
 @theme {
   --color-primary: #09f;
@@ -9,6 +17,8 @@
     --color-css: #663399;
     --color-js: #F7DF1E;
 
+    /* Fuentes */
+    --font-sans: 'Inter', system-ui, sans-serif;
     /* Breakpoints - media query */
     --breakpoint-xs: 350px;
 }
