@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+/* Creacion de variables */
+@theme {
+  --color-primary: #09f;
+    --color-primary-light: #ceecff;
+    --color-primary-dark: rgb(0, 22, 83);
+
+    /* Breakpoints - media query */
+    --breakpoint-xs: 350px;
+}
