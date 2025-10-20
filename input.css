@@ -9,3 +9,9 @@
     /* Breakpoints - media query */
     --breakpoint-xs: 350px;
 }
+
+.social-button {
+    /* No se recomienda usar apply, es mejor crear un componente en react*/
+    @apply p-2 size-12 sm:size-16 flex items-center justify-center rounded-full 
+        hover:scale-110 transition-transform;
+}
