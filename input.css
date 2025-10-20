@@ -5,6 +5,9 @@
   --color-primary: #09f;
     --color-primary-light: #ceecff;
     --color-primary-dark: rgb(0, 22, 83);
+    --color-html: #E34F26;
+    --color-css: #663399;
+    --color-js: #F7DF1E;
 
     /* Breakpoints - media query */
     --breakpoint-xs: 350px;
